@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software in teaching or research, please cite it as below."
+title: "Quant-Pulse-Processor"
+abstract: >-
+  A dependency-light quantum computing toolkit in pure Python and NumPy:
+  statevector simulation, canonical algorithms (QFT, Grover, Deutsch-Jozsa,
+  QAOA, VQE), and pulse-level transmon control with Lindblad noise and DRAG
+  leakage suppression.
+type: software
+authors:
+  - family-names: "Woo"
+    given-names: "Kyaw Kyaw"
+    website: "https://github.com/MrKyaw"
+license: MIT
+repository-code: "https://github.com/MrKyaw/Quant-Pulse-Processor"
+url: "https://github.com/MrKyaw/Quant-Pulse-Processor"
+version: "0.1.0"
+date-released: "2026-10-20"
+keywords:
+  - quantum computing
+  - quantum algorithms
+  - statevector simulator
+  - quantum Fourier transform
+  - Grover search
+  - QAOA
+  - variational quantum eigensolver
+  - pulse-level control
+  - DRAG
+  - transmon
+  - Lindblad
+  - NumPy

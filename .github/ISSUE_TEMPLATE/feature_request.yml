@@ -1,0 +1,40 @@
+name: Feature request
+description: Propose an algorithm, pulse model, benchmark or interface change.
+title: "[feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the gap, not just the desired API.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: How should it work? Include equations or references if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Exact reference
+      description: |
+        Every algorithm in this repo is scored against a closed form, brute
+        force, or dense reference. What should the new feature be checked
+        against?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: This can be implemented with NumPy only.
+        - label: I am willing to open a pull request.

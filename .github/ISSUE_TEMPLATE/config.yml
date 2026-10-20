@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://github.com/MrKyaw/Quant-Pulse-Processor/blob/main/docs/METHOD.md
+    about: Conventions, equations and reference values behind every algorithm.
+  - name: Architecture
+    url: https://github.com/MrKyaw/Quant-Pulse-Processor/blob/main/docs/ARCHITECTURE.md
+    about: How the engine, algorithms and pulse layer fit together.
+  - name: Benchmarks
+    url: https://github.com/MrKyaw/Quant-Pulse-Processor/blob/main/docs/BENCHMARKS.md
+    about: Reproducible timing and accuracy tables.
