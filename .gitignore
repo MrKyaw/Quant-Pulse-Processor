@@ -1,0 +1,31 @@
+# Operating system and editor artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# Environment and local secrets
+.env
+.env.*
+
+# Generated artifacts
+artifacts/
+*.npz
+*.npy
+demo.json
